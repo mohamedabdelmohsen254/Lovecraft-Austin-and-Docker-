@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -43,9 +37,6 @@ Austin_text_cleaning=[i for i in Austin_text_cleaning if i not in stop_words]
 Austin_text_cleaning=[i for i in Austin_text_cleaning if not  i.isdigit()]
 print("The common words between those two books are: \n \n ",set(Austin_text_cleaning) & set(Lovecraft_text_cleaning),"\n")
 print("The number of common words between those two books is: \n",len(set(Austin_text_cleaning) & set(Lovecraft_text_cleaning)))
-
-
-# In[ ]:
 
 
 
