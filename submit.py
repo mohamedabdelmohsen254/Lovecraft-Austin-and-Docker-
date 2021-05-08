@@ -1,3 +1,7 @@
+#Docker Pull Command
+#docker pull mohamedabdelmohsen/my_assingment
+#https://hub.docker.com/r/mohamedabdelmohsen/my_assingment
+
 import requests
 from bs4 import BeautifulSoup
 
